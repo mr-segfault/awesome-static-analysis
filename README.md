@@ -99,20 +99,28 @@ This is a collection of static analysis tools and code quality checkers starting
 * [gawk --lint](https://www.gnu.org/software/gawk/manual/html_node/Options.html) - warns about constructs that are dubious or nonportable to other awk implementations.
 
 ## C/C++
-* [CBMC](http://www.cprover.org/cbmc/) - bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses
-* [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) - clang static analyser
-* [cppcheck](https://github.com/danmar/cppcheck) - static analysis of C/C++ code
-* [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - automated C++ checker that follows Google's style guide
+[Metrics]
 * [cqmetrics](https://github.com/dspinellis/cqmetrics) - quality metrics for C code
 * [CScout](https://www.spinellis.gr/cscout/) - complexity and quality metrics for for C and C preprocessor code
+* [include-gardener](https://github.com/feddischson/include_gardener) - a static analyzer for C/C++/Obj-C to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
+
+[Quality]
+* [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) - clang static analyser
+* [cppcheck](https://github.com/danmar/cppcheck) - static analysis of C/C++ code
 * [flawfinder](http://www.dwheeler.com/flawfinder/) - finds possible security weaknesses
 * [Frama-C](http://frama-c.com/) - a sound and extensible static analyzer for C code
-* [IKOS](https://github.com/nasa-sw-vnv/ikos) - a sound static analyzer for C/C++ code based on LLVM
-* [include-gardener](https://github.com/feddischson/include_gardener) - a static analyzer for C/C++/Obj-C to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
-* [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [scan-build](https://clang-analyzer.llvm.org/scan-build.html) - Analyzes C/C++ code using LLVM at compile-time
+
+[Linter]
+* [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - automated C++ checker that follows Google's style guide
+* [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [splint](https://github.com/ravenexp/splint) - Annotation-assisted static program checker
+
+[Correctness]
+* [CBMC](http://www.cprover.org/cbmc/) - bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses
+* [IKOS](https://github.com/nasa-sw-vnv/ikos) - a sound static analyzer for C/C++ code based on LLVM
 * [SVF](https://github.com/SVF-tools/SVF) - a static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
+
 
 ## C# #
 
