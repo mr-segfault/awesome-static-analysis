@@ -101,24 +101,18 @@ This is a collection of static analysis tools and code quality checkers starting
 ## C/C++
 * [CBMC](http://www.cprover.org/cbmc/) - bounded model-checker for C programs, user-defined assertions, standard assertions, several coverage metric analyses
 * [clang-tidy](http://clang.llvm.org/extra/clang-tidy/) - clang static analyser
-* [CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files
-* [Codecheker](https://github.com/Ericsson/codechecker) - static analysis of C/C++ code, with web GUI
-* [Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
 * [cppcheck](https://github.com/danmar/cppcheck) - static analysis of C/C++ code
 * [cpplint](https://github.com/google/styleguide/tree/gh-pages/cpplint) - automated C++ checker that follows Google's style guide
 * [cqmetrics](https://github.com/dspinellis/cqmetrics) - quality metrics for C code
 * [CScout](https://www.spinellis.gr/cscout/) - complexity and quality metrics for for C and C preprocessor code
 * [flawfinder](http://www.dwheeler.com/flawfinder/) - finds possible security weaknesses
-* [flint++](http://l2program.co.uk/category/flint) - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 * [Frama-C](http://frama-c.com/) - a sound and extensible static analyzer for C code
 * [IKOS](https://github.com/nasa-sw-vnv/ikos) - a sound static analyzer for C/C++ code based on LLVM
 * [include-gardener](https://github.com/feddischson/include_gardener) - a static analyzer for C/C++/Obj-C to create a graph (in dot or graphml format) which shows all `#include` relations of a given set of files.
-* [oclint](http://oclint.org/) - static analysis of C/C++ code
+* [oclint](http://oclint.org/) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [scan-build](https://clang-analyzer.llvm.org/scan-build.html) - Analyzes C/C++ code using LLVM at compile-time
 * [splint](https://github.com/ravenexp/splint) - Annotation-assisted static program checker
 * [SVF](https://github.com/SVF-tools/SVF) - a static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
-* [vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
-
 
 ## C# #
 
@@ -473,7 +467,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [Hound CI](https://houndci.com/) - Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift.
 * [imhotep](https://github.com/justinabrahms/imhotep) - Comment on commits coming into your repository and check for syntactic errors and general lint warnings.
 * [Infer](https://github.com/facebook/infer) - A static analyzer for Java, C and Objective-C
-* [oclint](https://github.com/oclint/oclint) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [pfff](https://github.com/facebook/pfff) - Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages
 * [PMD](https://pmd.github.io/) - A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others
 * [Pronto](https://github.com/prontolabs/pronto) - Quick automated code review of your changes. Supports more than 40 runners for various languages, including Clang, Elixir, JavaSCript, PHP, Ruby and more
@@ -621,7 +614,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [write-good](https://github.com/btford/write-good) - A linter with a focus on eliminating "weasel words".
 
 ## Web services
-
+* [Codecheker](https://github.com/Ericsson/codechecker) - static analysis of C/C++ code, with web GUI
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 
 
@@ -681,6 +674,10 @@ This is a collection of static analysis tools and code quality checkers starting
 * [XCode](https://developer.apple.com/xcode/) :copyright: - XCode provides a pretty decent UI for [Clang's](http://clang-analyzer.llvm.org/xcode.html) static code analyzer (C/C++, Obj-C)
 
 ## Deprecated Tools
+* [2012][CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files
+* [2018][flint++](http://l2program.co.uk/category/flint) - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
+* [2015][vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
+* [2017][Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
 
 # More collections
 * [go-tools](https://github.com/dominikh/go-tools) - A collection of tools and libraries for working with Go code, including linters and static analysis
