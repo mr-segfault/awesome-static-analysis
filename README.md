@@ -82,22 +82,6 @@ This is a collection of static analysis tools and code quality checkers starting
 
 # Programming Languages
 
-## ABAP
-
-* [abaplint](https://github.com/larshp/abaplint) - Linter for ABAP, written in TypeScript.
-* [abapOpenChecks](https://github.com/larshp/abapOpenChecks) - Enhances the SAP Code Inspector with new and customizable checks.
-
-## Ada
-
-* [Codepeer](http://www.adacore.com/codepeer) - detects run-time and logic errors
-* [Polyspace for Ada](https://www.mathworks.com/products/polyspace-ada.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
-* [SPARK](http://www.spark-2014.org/about) :copyright: - Static analysis and formal verification toolset for Ada
-* [Understand](https://scitools.com/ada-programming-essential/) :copyright: - IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL.
-
-## Awk
-
-* [gawk --lint](https://www.gnu.org/software/gawk/manual/html_node/Options.html) - warns about constructs that are dubious or nonportable to other awk implementations.
-
 ## C/C++
 [Metrics]
 * [cqmetrics](https://github.com/dspinellis/cqmetrics) - quality metrics for C code
@@ -121,7 +105,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [IKOS](https://github.com/nasa-sw-vnv/ikos) - a sound static analyzer for C/C++ code based on LLVM
 * [SVF](https://github.com/SVF-tools/SVF) - a static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
 
-
 ## C# #
 
 * [.NET Analyzers](https://github.com/DotNetAnalyzers) - An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform.
@@ -141,36 +124,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [SonarLint for Visual Studio](https://vs.sonarlint.org/) - SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code.
 * [VSDiagnostics](https://github.com/Vannevelj/VSDiagnostics) - A collection of static analyzers based on Roslyn that integrates with VS.
 * [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
-
-## Crystal
-
-* [ameba](https://github.com/veelenga/ameba) - A static code analysis tool for Crystal
-* [crystal](https://crystal-lang.org/) - The Crystal compiler has built-in linting functionality.
-
-## Dlang
-
-* [D-scanner](https://github.com/dlang-community/D-Scanner) - D-Scanner is a tool for analyzing D source code
-
-## Elixir
-
-* [credo](https://github.com/rrrene/credo) - A static code analysis tool with a focus on code consistency and teaching.
-* [sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework
-
-## Elm
-
-* [elm-analyse](https://stil4m.github.io/elm-analyse/) - A tool that allows you to analyse your Elm code, identify deficiencies and apply best practices.
-
-## Erlang
-
-* [elvis](https://github.com/inaka/elvis) - Erlang Style Reviewer
-
-## F# #
-
-* [FSharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#
-
-## Fortran
-
-* [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
 
 ## Go
 
@@ -216,19 +169,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
 * [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - Find unused variables.
 * [varcheck](https://github.com/opennota/check) - Find unused global variables and constants.
-
-## Groovy
-
-* [CodeNarc](https://github.com/CodeNarc/CodeNarc) - a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices
-
-## Haskell
-
-* [HLint](https://github.com/ndmitchell/hlint) - HLint is a tool for suggesting possible improvements to Haskell code.
-* [Weeder](https://github.com/ndmitchell/weeder) - A tool for detecting dead exports or package imports in Haskell code.
-
-## Haxe
-
-* [Haxe Checkstyle](https://github.com/HaxeCheckstyle/haxe-checkstyle) - A static analysis tool to help developers write Haxe code that adheres to a coding standard.
 
 ## Java
 * [ArchUnit](https://www.archunit.org/) - Unit test your Java architecture
@@ -277,22 +217,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 * [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
 
-## Kotlin
-
-* [detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin code.
-* [ktlint](https://github.com/shyiko/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
-
-## Lua
-
-* [luacheck](https://github.com/mpeterv/luacheck) - A tool for linting and static analysis of Lua code.
-
-## MATLAB
-
-* [mlint](https://de.mathworks.com/help/matlab/ref/mlint.html) :copyright: - Check MATLAB code files for possible problems.
-
-## Perl
-
-* [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic-1.126/lib/Perl/Critic.pm) - Critique Perl source code for best-practices.
 
 ## PHP
 
@@ -625,6 +549,83 @@ This is a collection of static analysis tools and code quality checkers starting
 * [Codecheker](https://github.com/Ericsson/codechecker) - static analysis of C/C++ code, with web GUI
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 
+## Less Common Languages
+### ABAP
+
+* [abaplint](https://github.com/larshp/abaplint) - Linter for ABAP, written in TypeScript.
+* [abapOpenChecks](https://github.com/larshp/abapOpenChecks) - Enhances the SAP Code Inspector with new and customizable checks.
+
+### Ada
+
+* [Codepeer](http://www.adacore.com/codepeer) - detects run-time and logic errors
+* [Polyspace for Ada](https://www.mathworks.com/products/polyspace-ada.html) :copyright: - provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code.
+* [SPARK](http://www.spark-2014.org/about) :copyright: - Static analysis and formal verification toolset for Ada
+* [Understand](https://scitools.com/ada-programming-essential/) :copyright: - IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL.
+
+### Awk
+
+* [gawk --lint](https://www.gnu.org/software/gawk/manual/html_node/Options.html) - warns about constructs that are dubious or nonportable to other awk implementations.
+
+
+### Groovy
+
+* [CodeNarc](https://github.com/CodeNarc/CodeNarc) - a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices
+
+### Haskell
+
+* [HLint](https://github.com/ndmitchell/hlint) - HLint is a tool for suggesting possible improvements to Haskell code.
+* [Weeder](https://github.com/ndmitchell/weeder) - A tool for detecting dead exports or package imports in Haskell code.
+
+### Haxe
+
+* [Haxe Checkstyle](https://github.com/HaxeCheckstyle/haxe-checkstyle) - A static analysis tool to help developers write Haxe code that adheres to a coding standard.
+
+### Crystal
+
+* [ameba](https://github.com/veelenga/ameba) - A static code analysis tool for Crystal
+* [crystal](https://crystal-lang.org/) - The Crystal compiler has built-in linting functionality.
+
+### Dlang
+
+* [D-scanner](https://github.com/dlang-community/D-Scanner) - D-Scanner is a tool for analyzing D source code
+
+### Elixir
+
+* [credo](https://github.com/rrrene/credo) - A static code analysis tool with a focus on code consistency and teaching.
+* [sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework
+
+### Elm
+
+* [elm-analyse](https://stil4m.github.io/elm-analyse/) - A tool that allows you to analyse your Elm code, identify deficiencies and apply best practices.
+
+### Erlang
+
+* [elvis](https://github.com/inaka/elvis) - Erlang Style Reviewer
+
+### F# #
+
+* [FSharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#
+
+### Fortran
+
+* [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
+
+### Kotlin
+
+* [detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin code.
+* [ktlint](https://github.com/shyiko/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
+
+### Lua
+
+* [luacheck](https://github.com/mpeterv/luacheck) - A tool for linting and static analysis of Lua code.
+
+### MATLAB
+
+* [mlint](https://de.mathworks.com/help/matlab/ref/mlint.html) :copyright: - Check MATLAB code files for possible problems.
+
+### Perl
+
+* [Perl::Critic](http://search.cpan.org/~thaljef/Perl-Critic-1.126/lib/Perl/Critic.pm) - Critique Perl source code for best-practices.
 
 ## Commercial Tools
 * [AppChecker](https://npo-echelon.ru/en/solutions/appchecker.php) :copyright: - Static analysis for C/C++/C#, PHP and Java
