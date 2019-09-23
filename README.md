@@ -2,13 +2,8 @@
 
 > Static program analysis is the analysis of computer software that is performed without actually executing programs — [Wikipedia](https://en.wikipedia.org/wiki/Static_program_analysis)
 
-This is a collection of static analysis tools and code quality checkers. Pull requests are very welcome!
+This is a collection of static analysis tools and code quality checkers starting with this list: https://github.com/mre/awesome-static-analysis and improving it (by removing outdated projects and unrealistically expensive commercial tools). Further, some tools had limited functionality that other tools might have excelled at; choice adjustments were made to limit the number of tool functionality overlap. 
 
-* :copyright: stands for proprietary software. All other tools are Open Source.
-* :warning: indicates that the community does not recommend to use this tool for
-  new projects anymore as it is outdated or no longer maintained.
-
-Also check out the sister project, [awesome-dynamic-analysis](https://github.com/mre/awesome-dynamic-analysis).
 
 # Table of Contents
 
