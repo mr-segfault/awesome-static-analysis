@@ -80,9 +80,9 @@ This is a collection of static analysis tools and code quality checkers starting
 
 ---
 
-# Programming Languages
+# Compiled Programming Languages
 
-## C/C++
+## C/C++ #
 [Metrics]
 * [cqmetrics](https://github.com/dspinellis/cqmetrics) - quality metrics for C code
 * [CScout](https://www.spinellis.gr/cscout/) - complexity and quality metrics for for C and C preprocessor code
@@ -122,7 +122,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
 
 ## Go
-
 * [deadcode](https://github.com/tsenart/deadcode) - Finds unused code.
 * [dingo-hunter](https://github.com/nickng/dingo-hunter) - Static analyser for finding deadlocks in Go.
 * [dupl](https://github.com/mibk/dupl) - Reports potentially duplicated code.
@@ -187,6 +186,36 @@ This is a collection of static analysis tools and code quality checkers starting
 * [Soot](https://sable.github.io/soot/) - A framework for analyzing and transforming Java and Android applications.
 * [Spoon](https://github.com/INRIA/spoon) - Library to write your own static analyses and architectural rule checkers for Java. Can be integrated in Maven and Gradle.
 * [SpotBugs](https://spotbugs.github.io/) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
+## Rust
+* [cargo-audit](https://github.com/RustSec/cargo-audit) - Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).
+* [cargo-inspect](https://github.com/mre/cargo-inspect) - Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.
+* [clippy](https://github.com/Manishearth/rust-clippy) - A code linter to catch common mistakes and improve your Rust code
+* [electrolysis](https://github.com/Kha/electrolysis) - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
+* [herbie](https://github.com/mcarton/rust-herbie-lint) - Adds warnings or errors to your crate when using a numerically unstable floating point expression.
+* [linter-rust](https://github.com/AtomLinter/linter-rust) - Linting your Rust-files in Atom, using rustc and cargo
+* [Rust Language Server](https://github.com/rust-lang-nursery/rls) - Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
+* [rustfix](https://github.com/killercup/rustfix) - read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
+
+
+
+# Markup Languages
+## HTML
+* [HTML Inspector](https://github.com/philipwalton/html-inspector) - HTML Inspector is a code quality tool to help you and your team write better markup.
+* [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
+* [HTMLHint](https://github.com/yaniswang/HTMLHint) - A Static Code Analysis Tool for HTML
+* [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
+
+## CSS
+* [CSS Stats](https://github.com/cssstats/cssstats) - Potentially interesting stats on stylesheets
+* [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
+* [CSSLint](https://github.com/CSSLint/csslint) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
+* [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator
+* [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
+* [Project Wallace CSS Analyzer](https://github.com/projectwallace/css-analyzer) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)
+* [sass-lint](https://github.com/sasstools/sass-lint) - A Node-only Sass linter for both sass and scss syntax.
+* [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files
+* [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
+* [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
 
 # Script Based Languages
 ## JavaScript
@@ -212,10 +241,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 * [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
 
-
-
 ## PHP
-
 * [dephpend](https://github.com/mihaeu/dephpend) - Dependency analysis tool
 * [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) - Finds usages of deprecated (Symfony) code
 * [deptrac](https://github.com/sensiolabs-de/deptrac) - Enforce rules for dependencies between software layers.
@@ -261,7 +287,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [WAP](https://www.owasp.org/index.php/OWASP_WAP-Web_Application_Protection) - Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
 
 ## Python
-
 * [bandit](https://github.com/PyCQA/bandit) - a tool to find common security issues in Python code
 * [bellybutton](https://github.com/hchasestevens/bellybutton) - a linting engine supporting custom project-specific rules
 * [Black](https://github.com/ambv/black) - The uncompromising Python code formatter
@@ -292,6 +317,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [flake8](https://github.com/PyCQA/flake8) - a wrapper around `pyflakes`, `pycodestyle` and `mccabe`
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
+# New Cat 
 
 ## Ruby
 * [brakeman](https://github.com/presidentbeef/brakeman) - A static analysis security vulnerability scanner for Ruby on Rails applications
@@ -312,35 +338,10 @@ This is a collection of static analysis tools and code quality checkers starting
 * [SandiMeter](https://github.com/makaroni4/sandi_meter) - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 * [Sorbet](https://github.com/sorbet/sorbet) - A fast, powerful type checker designed for Ruby
 
-## Rust
-
-* [cargo-audit](https://github.com/RustSec/cargo-audit) - Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).
-* [cargo-inspect](https://github.com/mre/cargo-inspect) - Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.
-* [clippy](https://github.com/Manishearth/rust-clippy) - A code linter to catch common mistakes and improve your Rust code
-* [electrolysis](https://github.com/Kha/electrolysis) - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
-* [herbie](https://github.com/mcarton/rust-herbie-lint) - Adds warnings or errors to your crate when using a numerically unstable floating point expression.
-* [linter-rust](https://github.com/AtomLinter/linter-rust) - Linting your Rust-files in Atom, using rustc and cargo
-* [Rust Language Server](https://github.com/rust-lang-nursery/rls) - Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
-* [rustfix](https://github.com/killercup/rustfix) - read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
-
-## Scala
-* [linter](https://github.com/HairyFotr/linter) - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
-* [Scalastyle](http://www.scalastyle.org) - Scalastyle examines your Scala code and indicates potential problems with it.
-* [scapegoat](https://github.com/sksamuel/scapegoat) - Scala compiler plugin for static code analysis
-* [WartRemover](https://github.com/puffnfresh/wartremover) - a flexible Scala code linting tool.
-
 ## Shell
 
 * [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Shell and Fortran (77 and 90).
 * [shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts
-
-## HTML
-
-* [HTML Inspector](https://github.com/philipwalton/html-inspector) - HTML Inspector is a code quality tool to help you and your team write better markup.
-* [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
-* [HTMLHint](https://github.com/yaniswang/HTMLHint) - A Static Code Analysis Tool for HTML
-* [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
-
 
 ## SQL
 
@@ -348,8 +349,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter
 * [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter
 * [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server
-
-
 
 # Multiple languages
 * [coala](https://coala.io/) - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default
@@ -376,10 +375,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [WALA](http://wala.sourceforge.net/wiki/index.php/Main_Page) - static analysis capabilities for Java bytecode and related languages and for JavaScript
 * [Wotan](https://github.com/fimbullinter/wotan) - Pluggable TypeScript and JavaScript linter
 
-
-
 # Other
-
 ## Build tools
 * [checkmake](https://github.com/mrtazz/checkmake) - Linter / Analyzer for Makefiles
 * [codechecker](https://github.com/Ericsson/codechecker) - a defect database and viewer extension for the Clang Static Analyzer
@@ -402,45 +398,19 @@ This is a collection of static analysis tools and code quality checkers starting
 
 
 ## Config Files
-
 * [dotenv-linter](https://github.com/wemake-services/dotenv-linter) - Linting dotenv files like a charm.
 * [gixy](https://github.com/yandex/gixy) - a tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.
 
-
-
-## CSS
-* [CSS Stats](https://github.com/cssstats/cssstats) - Potentially interesting stats on stylesheets
-* [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
-* [CSSLint](https://github.com/CSSLint/csslint) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
-* [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator
-* [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
-* [Project Wallace CSS Analyzer](https://github.com/projectwallace/css-analyzer) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)
-* [sass-lint](https://github.com/sasstools/sass-lint) - A Node-only Sass linter for both sass and scss syntax.
-* [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files
-* [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
-* [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
-
 ## IDE Plugins
-
 * [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine for Vim and NeoVim with support for many languages
 * [DevSkim](https://github.com/Microsoft/DevSkim) - Inline, realtime security analysis. Works with multiple programming languages and IDEs (VS, VS Code, Sublime Text, ...).
 * [Puma Scan](https://github.com/pumasecurity/puma-scan) - Puma Scan provides real time secure code analysis for common vulnerabilities (XSS, SQLi, CSRF, LDAPi, crypto, deserialization, etc.) as development teams write code in Visual Studio.
 * [Security Code Scan](https://security-code-scan.github.io/) - Security code analyzer for C# and VB.NET that integrates into Visual Studio 2015 and newer. Detects various security vulnerability patterns: SQLi, XSS, CSRF, XXE, Open Redirect, etc.
 * [vint](https://github.com/Kuniwak/vint) - Fast and Highly Extensible Vim script Language Lint implemented by Python.
 
-## LaTeX
-
-* [ChkTeX](http://www.nongnu.org/chktex/) - A linter for LaTex which catches some typographic errors LaTeX oversees.
-* [lacheck](https://www.ctan.org/pkg/lacheck) - A tool for finding common mistakes in LaTeX documents.
-
 ## Makefiles
 
 * [portlint](https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports) - A verifier for FreeBSD and DragonFlyBSD port directories.
-
-## Markdown
-
-* [markdownlint](https://github.com/DavidAnson/markdownlint) - Node.js -based style checker and lint tool for Markdown/CommonMark files.
-* [mdl](https://github.com/mivok/markdownlint) - A tool to check Markdown files and flag style issues.
 
 ## Mobile
 
@@ -547,9 +517,19 @@ This is a collection of static analysis tools and code quality checkers starting
 * [detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin code.
 * [ktlint](https://github.com/shyiko/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
 
+## LaTeX
+
+* [ChkTeX](http://www.nongnu.org/chktex/) - A linter for LaTex which catches some typographic errors LaTeX oversees.
+* [lacheck](https://www.ctan.org/pkg/lacheck) - A tool for finding common mistakes in LaTeX documents.
+
 ### Lua
 
 * [luacheck](https://github.com/mpeterv/luacheck) - A tool for linting and static analysis of Lua code.
+
+## Markdown
+
+* [markdownlint](https://github.com/DavidAnson/markdownlint) - Node.js -based style checker and lint tool for Markdown/CommonMark files.
+* [mdl](https://github.com/mivok/markdownlint) - A tool to check Markdown files and flag style issues.
 
 ### MATLAB
 
@@ -562,6 +542,13 @@ This is a collection of static analysis tools and code quality checkers starting
 * [goodpractice](http://mangothecat.github.io/goodpractice/) - Analyses the source code for R packages and provides best-practice recommendations.
 * [lintr](https://github.com/jimhester/lintr) - Static Code Analysis for R.
 * [styler](https://styler.r-lib.org/) - Formatting of R source code files and pretty-printing of R code.
+
+## Scala
+* [linter](https://github.com/HairyFotr/linter) - Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems.
+* [Scalastyle](http://www.scalastyle.org) - Scalastyle examines your Scala code and indicates potential problems with it.
+* [scapegoat](https://github.com/sksamuel/scapegoat) - Scala compiler plugin for static code analysis
+* [WartRemover](https://github.com/puffnfresh/wartremover) - a flexible Scala code linting tool.
+
 ## Solidity
 
 * [slither](https://github.com/trailofbits/slither) - Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses
