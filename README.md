@@ -188,7 +188,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [Spoon](https://github.com/INRIA/spoon) - Library to write your own static analyses and architectural rule checkers for Java. Can be integrated in Maven and Gradle.
 * [SpotBugs](https://spotbugs.github.io/) - SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
 
-
+# Script Based Languages
 ## JavaScript
 
 * [aether](https://github.com/codecombat/aether) - Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
@@ -211,6 +211,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [tern](https://github.com/ternjs/tern) - A JavaScript code analyzer for deep, cross-editor language support
 * [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
 * [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
+
 
 
 ## PHP
@@ -333,6 +334,13 @@ This is a collection of static analysis tools and code quality checkers starting
 * [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Shell and Fortran (77 and 90).
 * [shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts
 
+## HTML
+
+* [HTML Inspector](https://github.com/philipwalton/html-inspector) - HTML Inspector is a code quality tool to help you and your team write better markup.
+* [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
+* [HTMLHint](https://github.com/yaniswang/HTMLHint) - A Static Code Analysis Tool for HTML
+* [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
+
 
 ## SQL
 
@@ -373,21 +381,17 @@ This is a collection of static analysis tools and code quality checkers starting
 # Other
 
 ## Build tools
-
 * [checkmake](https://github.com/mrtazz/checkmake) - Linter / Analyzer for Makefiles
 * [codechecker](https://github.com/Ericsson/codechecker) - a defect database and viewer extension for the Clang Static Analyzer
 
 ## Binaries
-
 * [BinSkim](https://github.com/Microsoft/binskim) - A binary static analysis tool that provides security and correctness results for Windows portable executables.
 * [cwe_checker](https://github.com/fkie-cad/cwe_checker) - cwe_checker finds vulnerable patterns in binary executables.
 * [Jakstab](https://github.com/jkinder/jakstab) - Jakstab is an Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs.
 * [Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer, which checks portable executables for malicious content.
 * [Twiggy](https://github.com/rustwasm/twiggy) - Analyzes a binary's call graph to profile code size. The goal is to slim down binaries.
 
-
 ## Containers
-
 * [anchore](https://anchore.io/) - Discover, analyze, and certify container images
 * [clair](https://github.com/coreos/clair) - Vulnerability Static Analysis for Containers
 * [collector](https://github.com/banyanops/collector) - Run arbitrary scripts inside containers, and gather useful information
@@ -402,20 +406,9 @@ This is a collection of static analysis tools and code quality checkers starting
 * [dotenv-linter](https://github.com/wemake-services/dotenv-linter) - Linting dotenv files like a charm.
 * [gixy](https://github.com/yandex/gixy) - a tool to analyze Nginx configuration. The main goal is to prevent misconfiguration and automate flaw detection.
 
-## Configuration Management
-
-* [ansible-lint](https://github.com/willthames/ansible-lint) - Checks playbooks for practices and behaviour that could potentially be improved
-* [cfn-lint](https://github.com/awslabs/cfn-python-lint) - AWS Labs CloudFormation linter.
-* [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
-* [cookstyle](https://docs.chef.io/cookstyle.html) - Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks
-* [foodcritic](http://www.foodcritic.io/) - A lint tool that checks Chef cookbooks for common problems.
-* [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
-* [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
-* [tflint](https://github.com/wata727/tflint) - A Terraform linter for detecting errors that can not be detected by `terraform plan`.
 
 
 ## CSS
-
 * [CSS Stats](https://github.com/cssstats/cssstats) - Potentially interesting stats on stylesheets
 * [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
 * [CSSLint](https://github.com/CSSLint/csslint) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
@@ -426,18 +419,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files
 * [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
 * [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
-
-## Gherkin
-
-* [gherkin-lint](https://github.com/vsiakka/gherkin-lint) - A linter for the Gherkin-Syntax written in Javascript.
-
-## HTML
-
-* [HTML Inspector](https://github.com/philipwalton/html-inspector) - HTML Inspector is a code quality tool to help you and your team write better markup.
-* [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
-* [HTMLHint](https://github.com/yaniswang/HTMLHint) - A Static Code Analysis Tool for HTML
-* [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
-
 
 ## IDE Plugins
 
@@ -474,7 +455,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [rpmlint](https://github.com/rpm-software-management/rpmlint) - Tool for checking common errors in rpm packages
 
 ## Supporting Tools
-
 * [LibVCS4j](https://github.com/uni-bremen-agst/libvcs4j) - A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers.
 * [Violations Lib](https://github.com/tomasbjerre/violations-lib) - Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins.
 
@@ -485,9 +465,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [slim-lint](https://github.com/sds/slim-lint) - Configurable tool for analyzing Slim templates
 * [yamllint](https://github.com/adrienverge/yamllint) - Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation.
 
-## Translation
-
-* [dennis](https://github.com/willkg/dennis/) - A set of utilities for working with PO files to ease development and improve quality.
 
 ## Writing
 
@@ -504,7 +481,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [Codecheker](https://github.com/Ericsson/codechecker) - static analysis of C/C++ code, with web GUI
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 
-## Less Common Languages
+# Less Common Use Cases
 ### ABAP
 
 * [abaplint](https://github.com/larshp/abaplint) - Linter for ABAP, written in TypeScript.
@@ -516,19 +493,15 @@ This is a collection of static analysis tools and code quality checkers starting
 
 * [gawk --lint](https://www.gnu.org/software/gawk/manual/html_node/Options.html) - warns about constructs that are dubious or nonportable to other awk implementations.
 
-
-### Groovy
-
-* [CodeNarc](https://github.com/CodeNarc/CodeNarc) - a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices
-
-### Haskell
-
-* [HLint](https://github.com/ndmitchell/hlint) - HLint is a tool for suggesting possible improvements to Haskell code.
-* [Weeder](https://github.com/ndmitchell/weeder) - A tool for detecting dead exports or package imports in Haskell code.
-
-### Haxe
-
-* [Haxe Checkstyle](https://github.com/HaxeCheckstyle/haxe-checkstyle) - A static analysis tool to help developers write Haxe code that adheres to a coding standard.
+## Configuration Management
+* [ansible-lint](https://github.com/willthames/ansible-lint) - Checks playbooks for practices and behaviour that could potentially be improved
+* [cfn-lint](https://github.com/awslabs/cfn-python-lint) - AWS Labs CloudFormation linter.
+* [cfn_nag](https://github.com/stelligent/cfn_nag) - A linter for AWS CloudFormation templates.
+* [cookstyle](https://docs.chef.io/cookstyle.html) - Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks
+* [foodcritic](http://www.foodcritic.io/) - A lint tool that checks Chef cookbooks for common problems.
+* [Puppet Lint](https://github.com/rodjek/puppet-lint) - Check that your Puppet manifests conform to the style guide.
+* [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
+* [tflint](https://github.com/wata727/tflint) - A Terraform linter for detecting errors that can not be detected by `terraform plan`.
 
 ### Crystal
 
@@ -549,19 +522,28 @@ This is a collection of static analysis tools and code quality checkers starting
 * [elm-analyse](https://stil4m.github.io/elm-analyse/) - A tool that allows you to analyse your Elm code, identify deficiencies and apply best practices.
 
 ### Erlang
-
 * [elvis](https://github.com/inaka/elvis) - Erlang Style Reviewer
 
 ### F# #
-
 * [FSharpLint](https://github.com/fsprojects/FSharpLint) - Lint tool for F#
 
 ### Fortran
-
 * [i-Code CNES for Fortran](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Fortran 77, Fortran 90 and Shell.
 
-### Kotlin
+## Gherkin
+* [gherkin-lint](https://github.com/vsiakka/gherkin-lint) - A linter for the Gherkin-Syntax written in Javascript.
 
+### Groovy
+* [CodeNarc](https://github.com/CodeNarc/CodeNarc) - a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices
+
+### Haskell
+* [HLint](https://github.com/ndmitchell/hlint) - HLint is a tool for suggesting possible improvements to Haskell code.
+* [Weeder](https://github.com/ndmitchell/weeder) - A tool for detecting dead exports or package imports in Haskell code.
+
+### Haxe
+* [Haxe Checkstyle](https://github.com/HaxeCheckstyle/haxe-checkstyle) - A static analysis tool to help developers write Haxe code that adheres to a coding standard.
+
+### Kotlin
 * [detekt](https://github.com/arturbosch/detekt) - Static code analysis for Kotlin code.
 * [ktlint](https://github.com/shyiko/ktlint) - An anti-bikeshedding Kotlin linter with built-in formatter
 
@@ -603,6 +585,9 @@ This is a collection of static analysis tools and code quality checkers starting
 * [tslint-clean-code](https://github.com/Glavin001/tslint-clean-code) - A set of TSLint rules inspired by the Clean Code handbook.
 * [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib) - A set of tslint rules for static code analysis of TypeScript projects maintained by Microsoft.
 
+## Translation
+
+* [dennis](https://github.com/willkg/dennis/) - A set of utilities for working with PO files to ease development and improve quality.
 
 ## Commercial Tools
 * See: [Commercial Tools] (https://github.com/mr-segfault/awesome-static-analysis/blob/master/commercialTools.md)
@@ -612,8 +597,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [2018][flint++](http://l2program.co.uk/category/flint) - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 * [2015][vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
 * [2017][Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
-
-# More collections
 
 ## License
 
