@@ -210,7 +210,6 @@ This is a collection of static analysis tools and code quality checkers starting
 
 # Markup Languages
 ## HTML
-* [HTML Inspector](https://github.com/philipwalton/html-inspector) - HTML Inspector is a code quality tool to help you and your team write better markup.
 * [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 * [HTMLHint](https://github.com/yaniswang/HTMLHint) - A Static Code Analysis Tool for HTML
 * [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
@@ -229,27 +228,30 @@ This is a collection of static analysis tools and code quality checkers starting
 
 # Script Based Languages
 ## JavaScript
-
-* [aether](https://github.com/codecombat/aether) - Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
-* [ClosureLinter](https://github.com/google/closure-linter) - ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors
-* [coffeelint](https://github.com/clutchski/coffeelint) - A style checker that helps keep CoffeeScript code clean and consistent.
+[Metrics]
 * [complexity-report](https://github.com/jared-stilwell/complexity-report) - Software complexity analysis for JavaScript projects
 * [escomplex](https://github.com/jared-stilwell/escomplex) - Software complexity analysis of JavaScript-family abstract syntax trees.
+* [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
+[Linting]
+* [ClosureLinter](https://github.com/google/closure-linter) - ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors
+* [coffeelint](https://github.com/clutchski/coffeelint) - A style checker that helps keep CoffeeScript code clean and consistent.
 * [eslint](https://github.com/eslint/eslint) - A fully pluggable tool for identifying and reporting on patterns in JavaScript
-* [Esprima](https://github.com/jquery/esprima) - ECMAScript parsing infrastructure for multipurpose analysis
-* [flow](https://flow.org/) - A static type checker for JavaScript.
-* [jshint](https://github.com/jshint/jshint) :warning: - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
 * [JSLint](https://github.com/douglascrockford/JSLint) :warning: - The JavaScript Code Quality Tool
+* [Prettier](https://github.com/prettier/prettier) - An opinionated code formatter.
+* [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues
+* [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
+
+[Quality]
+* [jshint](https://github.com/jshint/jshint) - detect errors and potential problems in JavaScript code and enforce your team's coding conventions
 * [JSPrime](https://github.com/dpnishant/jsprime) - static security analysis tool
 * [NodeJSScan](https://github.com/ajinabraham/NodeJsScan) - NodeJsScan is a static security code scanner for Node.js applications.
-* [plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
-* [Prettier](https://github.com/prettier/prettier) - An opinionated code formatter.
-* [quality](https://github.com/jden/quality) - zero configuration code and module linting
 * [retire.js](https://github.com/RetireJS/retire.js) - Scanner detecting the use of JavaScript libraries with known vulnerabilities
-* [standard](http://standardjs.com/) - An npm module that checks for Javascript Styleguide issues
 * [tern](https://github.com/ternjs/tern) - A JavaScript code analyzer for deep, cross-editor language support
-* [xo](https://github.com/xojs/xo) - Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code.
-* [yardstick](https://github.com/calmh/yardstick) - Javascript code metrics
+
+[Correctness]
+* [aether](https://github.com/codecombat/esper.js) - Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser.
+* [Esprima](https://github.com/jquery/esprima) - ECMAScript parsing infrastructure for multipurpose analysis
+* [flow](https://flow.org/) - A static type checker for JavaScript.
 
 ## PHP
 * [dephpend](https://github.com/mihaeu/dephpend) - Dependency analysis tool
@@ -594,8 +596,12 @@ This is a collection of static analysis tools and code quality checkers starting
 * [2012][CMetrics](https://github.com/MetricsGrimoire/CMetrics) - Measures size and complexity for C files
 * [2018][flint++](http://l2program.co.uk/category/flint) - cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook.
 * [2015][vera++](https://bitbucket.org/verateam/vera/wiki/Introduction) - Vera++ is a programmable tool for verification, analysis and transformation of C++ source code.
+* [2017][HTML Inspector](https://github.com/philipwalton/html-inspector) - HTML Inspector is a code quality tool to help you and your team write better markup.
 * [2017][Corrode](https://github.com/jameysharp/corrode) - Semi-automatic translation from C to Rust. Could reveal bugs in the original implementation by showing Rust compiler warnings and errors.
 * [2016][Hopper](https://github.com/cuplv/hopper) - A static analysis tool written in scala for languages that run on JVM
+* [2015][quality](https://github.com/jden/quality) - zero configuration code and module linting
+* [2016][plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
+
 
 ## License
 
