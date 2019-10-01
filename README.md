@@ -118,7 +118,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - Find unused variables.
 * [varcheck](https://github.com/opennota/check) - Find unused global variables and constants.
 
-## Java
+## Java (Interpreted)
 [Metrics]
 * [ck](https://github.com/mauricioaniche/ck) - calculates Chidamber and Kemerer object-oriented metrics by processing the source Java files
 * [ckjm](http://www.spinellis.gr/sw/ckjm/) - calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files
@@ -147,7 +147,24 @@ This is a collection of static analysis tools and code quality checkers starting
 [Test]
 * [ArchUnit](https://www.archunit.org/) - Unit test your Java architecture
 
-
+## Ruby (Interpreted)
+* [brakeman](https://github.com/presidentbeef/brakeman) - A static analysis security vulnerability scanner for Ruby on Rails applications
+* [cane](https://github.com/square/cane) - Code quality threshold checking as part of your build
+* [dawnscanner](https://github.com/thesp0nge/dawnscanner) - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.
+* [flay](https://github.com/seattlerb/flay) - Flay analyzes code for structural similarities.
+* [flog](https://github.com/seattlerb/flog) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
+* [laser](https://github.com/michaeledgar/laser) - Static analysis and style linter for Ruby code.
+* [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code
+* [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
+* [Querly](https://github.com/soutaro/querly) - Pattern Based Checking Tool for Ruby
+* [Railroader](https://railroader.org/) - An open source static analysis security vulnerability scanner for Ruby on Rails applications.
+* [reek](https://github.com/troessner/reek) - Code smell detector for Ruby
+* [RuboCop](https://github.com/rubocop-hq/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
+* [Rubrowser](https://github.com/blazeeboy/rubrowser) - Ruby classes interactive dependency graph generator.
+* [ruby-lint](https://github.com/YorickPeterse/ruby-lint) - Static code analysis for Ruby
+* [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter
+* [SandiMeter](https://github.com/makaroni4/sandi_meter) - Static analysis tool for checking Ruby code for Sandi Metz' rules.
+* [Sorbet](https://github.com/sorbet/sorbet) - A fast, powerful type checker designed for Ruby
 
 ## Rust
 * [cargo-audit](https://github.com/RustSec/cargo-audit) - Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).
@@ -158,8 +175,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [linter-rust](https://github.com/AtomLinter/linter-rust) - Linting your Rust-files in Atom, using rustc and cargo
 * [Rust Language Server](https://github.com/rust-lang-nursery/rls) - Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
 * [rustfix](https://github.com/killercup/rustfix) - read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
-
-
 
 # Markup Languages
 ## HTML
@@ -282,26 +297,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [flake8](https://github.com/PyCQA/flake8) - a wrapper around `pyflakes`, `pycodestyle` and `mccabe`
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
-# New Cat 
-
-## Ruby
-* [brakeman](https://github.com/presidentbeef/brakeman) - A static analysis security vulnerability scanner for Ruby on Rails applications
-* [cane](https://github.com/square/cane) - Code quality threshold checking as part of your build
-* [dawnscanner](https://github.com/thesp0nge/dawnscanner) - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.
-* [flay](https://github.com/seattlerb/flay) - Flay analyzes code for structural similarities.
-* [flog](https://github.com/seattlerb/flog) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
-* [laser](https://github.com/michaeledgar/laser) - Static analysis and style linter for Ruby code.
-* [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code
-* [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
-* [Querly](https://github.com/soutaro/querly) - Pattern Based Checking Tool for Ruby
-* [Railroader](https://railroader.org/) - An open source static analysis security vulnerability scanner for Ruby on Rails applications.
-* [reek](https://github.com/troessner/reek) - Code smell detector for Ruby
-* [RuboCop](https://github.com/rubocop-hq/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
-* [Rubrowser](https://github.com/blazeeboy/rubrowser) - Ruby classes interactive dependency graph generator.
-* [ruby-lint](https://github.com/YorickPeterse/ruby-lint) - Static code analysis for Ruby
-* [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter
-* [SandiMeter](https://github.com/makaroni4/sandi_meter) - Static analysis tool for checking Ruby code for Sandi Metz' rules.
-* [Sorbet](https://github.com/sorbet/sorbet) - A fast, powerful type checker designed for Ruby
 
 ## Shell
 
@@ -309,11 +304,8 @@ This is a collection of static analysis tools and code quality checkers starting
 * [shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts
 
 ## SQL
-
-* [sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries
 * [sqlint](https://github.com/purcell/sqlint) - Simple SQL linter
 * [tsqllint](https://github.com/tsqllint/tsqllint) - T-SQL-specific linter
-* [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server
 
 # Multiple languages
 * [coala](https://coala.io/) - Language independent framework for creating code analysis - supports [over 60 languages](https://coala.io/languages) by default
@@ -433,6 +425,8 @@ ABAP, Ada, Awk, Configuration Management, Crystal, Dlang, Elixir, Elm, Erlang, F
 * [2016][Hopper](https://github.com/cuplv/hopper) - A static analysis tool written in scala for languages that run on JVM
 * [2015][quality](https://github.com/jden/quality) - zero configuration code and module linting
 * [2016][plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
+* [NoLongerOnline][sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries
+* [2017] [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server
 
 
 ## License
