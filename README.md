@@ -151,17 +151,13 @@ This is a collection of static analysis tools and code quality checkers starting
 * [dawnscanner](https://github.com/thesp0nge/dawnscanner) - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.
 * [flay](https://github.com/seattlerb/flay) - Flay analyzes code for structural similarities.
 * [flog](https://github.com/seattlerb/flog) - Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
-* [laser](https://github.com/michaeledgar/laser) - Static analysis and style linter for Ruby code.
-* [pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code
 * [quality](https://github.com/apiology/quality) - Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time.
 * [Querly](https://github.com/soutaro/querly) - Pattern Based Checking Tool for Ruby
 * [Railroader](https://railroader.org/) - An open source static analysis security vulnerability scanner for Ruby on Rails applications.
 * [reek](https://github.com/troessner/reek) - Code smell detector for Ruby
 * [RuboCop](https://github.com/rubocop-hq/rubocop) - A Ruby static code analyzer, based on the community Ruby style guide.
 * [Rubrowser](https://github.com/blazeeboy/rubrowser) - Ruby classes interactive dependency graph generator.
-* [ruby-lint](https://github.com/YorickPeterse/ruby-lint) - Static code analysis for Ruby
 * [rubycritic](https://github.com/whitesmith/rubycritic) - A Ruby code quality reporter
-* [SandiMeter](https://github.com/makaroni4/sandi_meter) - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 * [Sorbet](https://github.com/sorbet/sorbet) - A fast, powerful type checker designed for Ruby
 
 ## Rust
@@ -421,6 +417,10 @@ ABAP, Ada, Awk, Configuration Management, Crystal, Dlang, Elixir, Elm, Erlang, F
 * [2016] [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
 * [2015] [CSharpEssentials](https://github.com/DustinCampbell/CSharpEssentials) - C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features.
 * [2016][Wintellect.Analyzers](https://github.com/Wintellect/Wintellect.Analyzers) - .NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes.
+* [2011][laser](https://github.com/michaeledgar/laser) - Static analysis and style linter for Ruby code.
+* [2015][pelusa](https://github.com/codegram/pelusa) - Static analysis Lint-type tool to improve your OO Ruby code
+* [2017][ruby-lint](https://gitlab.com/yorickpeterse/ruby-lint) - Static code analysis for Ruby
+* [2015][SandiMeter](https://github.com/makaroni4/sandi_meter) - Static analysis tool for checking Ruby code for Sandi Metz' rules.
 
 ## License
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
