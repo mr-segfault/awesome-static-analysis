@@ -13,42 +13,17 @@ This is a collection of static analysis tools and code quality checkers starting
  <summary>Show languages</summary>
   <!-- Please use HTML syntax here so that it works for Github and mkdocs -->
   <ul>
-    <li><a href="#abap">ABAP</a></li>
-    <li><a href="#ada">Ada</a></li>
-    <li><a href="#awk">Awk</a></li>
     <li><a href="#cc">C/C++</a></li>
     <li><a href="#c">C#</a></li>
-    <li><a href="#crystal">Crystal</a></li>
-    <li><a href="#dlang">Dlang</a></li>
-    <li><a href="#elixir">Elixir</a></li>
-    <li><a href="#elm">Elm</a></li>
-    <li><a href="#erlang">Erlang</a></li>
-    <li><a href="#f">F#</a></li>
-    <li><a href="#fortran">Fortran</a></li>
     <li><a href="#go">Go</a></li>
-    <li><a href="#groovy">Groovy</a></li>
-    <li><a href="#haskell">Haskell</a></li>
-    <li><a href="#haxe">Haxe</a></li>
     <li><a href="#java">Java</a></li>
     <li><a href="#javascript">JavaScript</a></li>
-    <li><a href="#kotlin">Kotlin</a></li>
-    <li><a href="#lua">Lua</a></li>
-    <li><a href="#matlab">Matlab</a></li>
-    <li><a href="#perl">Perl</a></li>
     <li><a href="#php">PHP</a></li>
     <li><a href="#python">Python</a></li>
-    <li><a href="#r">R</a></li>
-    <li><a href="#rpg">RPG</a></li>
     <li><a href="#ruby">Ruby</a></li>
     <li><a href="#rust">Rust</a></li>
-    <li><a href="#scala">Scala</a></li>
     <li><a href="#shell">Shell</a></li>
-    <li><a href="#solidity">Solidity</a></li>
     <li><a href="#sql">SQL</a></li>
-    <li><a href="#swift">Swift</a></li>
-    <li><a href="#tcl">Tcl</a></li>
-    <li><a href="#typescript">TypeScript</a></li>
-    <li><a href="#vbscript">VBScript</a></li>
   </ul>
 </details>
 
@@ -465,34 +440,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 
 # Less Common Use Cases
-### ABAP
-### Ada
-### Awk
-## Configuration Management
-### Crystal
-### Dlang
-### Elixir
-### Elm
-### Erlang
-### F# #
-### Fortran
-## Gherkin
-### Groovy
-### Haskell
-### Haxe
-### Kotlin
-## LaTeX
-### Lua
-## Markdown
-### MATLAB
-### Perl
-## R
-## Scala
-## Solidity
-## Swift
-## Tcl
-## TypeScript
-## Translation
+ABAP, Ada, Awk, Configuration Management, Crystal, Dlang, Elixir, Elm, Erlang, F#, Fortran, Gherkin, Groovy, Haskell, Haxe, Kotlin, LaTeX, Lua, Markdown, MATLAB, Perl, R, Scala, Solidity, Swift, Tcl, TypeScript, Translation
 * See: [Less Common Tools] (https://github.com/mr-segfault/awesome-static-analysis/blob/master/lessCommon.md)
 
 ## Commercial Tools
