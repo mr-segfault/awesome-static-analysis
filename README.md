@@ -73,7 +73,6 @@ This is a collection of static analysis tools and code quality checkers starting
 
 
 ## Go
-* [deadcode](https://github.com/tsenart/deadcode) - Finds unused code.
 * [dingo-hunter](https://github.com/nickng/dingo-hunter) - Static analyser for finding deadlocks in Go.
 * [dupl](https://github.com/mibk/dupl) - Reports potentially duplicated code.
 * [errcheck](https://github.com/kisielk/errcheck) - Check that error return values are used.
@@ -86,8 +85,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [go-critic](https://github.com/go-critic/go-critic) - Go source code linter that maintains checks which are currently not implemented in other linters.
 * [go-staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - go vet on steroids, similar to ReSharper for C#.
 * [go/ast](https://golang.org/pkg/go/ast/) - Package ast declares the types used to represent syntax trees for Go packages.
-* [goconst](https://github.com/jgautheron/goconst) - Finds repeated strings that could be replaced by a constant.
-* [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code.
 * [gofmt -s](https://golang.org/cmd/gofmt/) - Checks if the code is properly formatted and could not be further simplified.
 * [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) - Checks missing or unreferenced package imports.
 * [GolangCI-Lint](https://github.com/golangci/golangci-lint) - Alternative to `Go Meta Linter`: GolangCI-Lint is a linters aggregator.
@@ -97,7 +94,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [gosimple](https://github.com/dominikh/go-tools/tree/master/cmd/gosimple) - Report simplifications in code.
 * [gotype](https://golang.org/x/tools/cmd/gotype) - Syntactic and semantic analysis similar to the Go compiler.
 * [ineffassign](https://github.com/gordonklaus/ineffassign) - Detect ineffectual assignments in Go code
-* [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
 * [lll](https://github.com/walle/lll) - Report long lines.
 * [maligned](https://github.com/mdempsky/maligned) -  Detect structs that would take less memory if their fields were sorted.
 * [megacheck](https://github.com/dominikh/go-tools/tree/master/cmd/megacheck) - Run staticcheck, gosimple and unused, sharing work.
@@ -107,11 +103,10 @@ This is a collection of static analysis tools and code quality checkers starting
 * [prealloc](https://github.com/alexkohler/prealloc) - Finds slice declarations that could potentially be preallocated.
 * [revive](https://github.com/mgechev/revive) - Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint.
 * [safesql](https://github.com/stripe/safesql) - Static analysis tool for Golang that protects against SQL injections.
-* [structcheck](https://github.com/opennota/check) - Find unused struct fields.
+* [structcheck](https://gitlab.com/opennota/check) - Find unused struct fields.
 * [test](http://golang.org/pkg/testing/) - Show location of test failures from the stdlib testing module.
 * [testify](https://github.com/stretchr/testify) - Show location of failed testify assertions.
 * [unconvert](https://github.com/mdempsky/unconvert) - Detect redundant type conversions.
-* [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases
 * [unparam](https://github.com/mvdan/unparam) - Find unused function parameters.
 * [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - Find unused variables.
 * [varcheck](https://github.com/opennota/check) - Find unused global variables and constants.
@@ -416,12 +411,17 @@ ABAP, Ada, Awk, Configuration Management, Crystal, Dlang, Elixir, Elm, Erlang, F
 * [2015] [phpdcd](https://github.com/sebastianbergmann/phpdcd) - Dead Code Detector (DCD) for PHP code.
 * [2017] [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations
 * [2016] [twig-lint](https://github.com/asm89/twig-lint) - twig-lint is a lint tool for your twig files.
-
 * [2017] [phpqa - jmolivas](https://github.com/jmolivas/phpqa) - PHPQA all-in-one Analyzer CLI tool
 * [2017] [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - Visualizes metrics and source code
 * [2014] [Mondrian](https://github.com/Trismegiste/Mondrian) - a set of static analysis and refactoring tools which use graph theory
 * [2015] [DesignPatternDetector](https://github.com/Halleck45/DesignPatternDetector) - detection of design patterns in PHP code
 * [2017] [deprecation-detector](https://github.com/sensiolabs-de/deprecation-detector) - Finds usages of deprecated (Symfony) code
+* [2015] [gocyclo](https://github.com/fzipp/gocyclo) - Calculate cyclomatic complexities of functions in Go source code.
+* [2018] [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
+* [2017] [unimport](https://github.com/alexkohler/unimport) - Finds unnecessary import aliases
+* [2016] [deadcode](https://github.com/tsenart/deadcode) - Finds unused code.
+* [2017] [goconst](https://github.com/jgautheron/goconst) - Finds repeated strings that could be replaced by a constant.
+
 
 ## License
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
