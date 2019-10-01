@@ -4,35 +4,6 @@
 
 This is a collection of static analysis tools and code quality checkers starting with this list: https://github.com/mre/awesome-static-analysis and improving it (by removing outdated projects and unrealistically expensive commercial tools). Further, some tools had limited functionality that other tools might have excelled at; choice adjustments were made to limit the number of tool functionality overlap. 
 
-
-# Table of Contents
-
-#### [Programming Languages](#programming-languages-1)
-
-<details>
- <summary>Show languages</summary>
-  <!-- Please use HTML syntax here so that it works for Github and mkdocs -->
-  <ul>
-    <li><a href="#cc">C/C++</a></li>
-    <li><a href="#c">C#</a></li>
-    <li><a href="#go">Go</a></li>
-    <li><a href="#java">Java</a></li>
-    <li><a href="#javascript">JavaScript</a></li>
-    <li><a href="#php">PHP</a></li>
-    <li><a href="#python">Python</a></li>
-    <li><a href="#ruby">Ruby</a></li>
-    <li><a href="#rust">Rust</a></li>
-    <li><a href="#shell">Shell</a></li>
-    <li><a href="#sql">SQL</a></li>
-  </ul>
-</details>
-
-#### [Multiple languages](#multiple-languages-1)
-
-#### [Other](#other-1)
-
----
-
 # Compiled Programming Languages
 
 ## C/C++ #
