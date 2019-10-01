@@ -31,28 +31,6 @@ This is a collection of static analysis tools and code quality checkers starting
 
 #### [Other](#other-1)
 
-  - [Build tools](#build-tools)
-  - [Binaries](#binaries)
-  - [Containers](#containers)
-  - [Config Files](#config-files)
-  - [Configuration Management](#configuration-management)
-  - [CSS](#css)
-  - [Gherkin](#gherkin)
-  - [HTML](#html)
-  - [IDE Plugins](#ide-plugins)
-  - [LaTeX](#latex)
-  - [Makefiles](#makefiles)
-  - [Markdown](#markdown)
-  - [Mobile](#mobile)
-  - [Packages](#packages)
-  - [Supporting Tools](#supporting-tools)
-  - [Template Languages](#template-languages)
-  - [Translation](#translation)
-  - [Web services](#web-services)
-  - [Writing](#writing)
-
-#### [More Collections](#more-collections-1)
-
 ---
 
 # Compiled Programming Languages
