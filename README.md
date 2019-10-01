@@ -265,7 +265,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [linty fresh](https://github.com/lyft/linty_fresh) - parse lint errors and report them to Github as comments on a pull request
 * [mccabe](https://github.com/PyCQA/mccabe) - check McCabe complexity
 * [mypy](https://github.com/python/mypy) - a static type checker that aims to combine the benefits of duck typing and static typing, frequently used with [MonkeyType](https://github.com/Instagram/MonkeyType)
-* [py-find-injection](https://github.com/uber/py-find-injection) - find SQL injection vulnerabilities in Python code
 * [pycodestyle](https://github.com/PyCQA/pycodestyle) - (formerly `pep8`) check Python code against some of the style conventions in PEP 8
 * [pydocstyle](https://github.com/PyCQA/pydocstyle) - check compliance with Python docstring conventions
 * [pyflakes](https://github.com/pyflakes/pyflakes/) - check Python source files for errors
@@ -273,7 +272,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [pyre-check](https://github.com/facebook/pyre-check) - A fast, scalable type checker for large Python codebases
 * [pyright](https://github.com/Microsoft/pyright) - Static type checker for Python, created to address gaps in existing tools like mypy.
 * [pyroma](https://github.com/regebro/pyroma) - rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved
-* [PyT - Python Taint](https://github.com/python-security/pyt) - A static analysis tool for detecting security vulnerabilities in Python web applications.
+* [Claims No longer updated but still getting updated] [PyT - Python Taint](https://github.com/python-security/pyt) - A static analysis tool for detecting security vulnerabilities in Python web applications.
 * [pytype](https://github.com/google/pytype) - A static type analyzer for Python code.
 * [radon](https://github.com/rubik/radon) - a Python tool that computes various metrics from the source code
 * [vulture](https://github.com/jendrikseipp/vulture) - find unused classes, functions and variables in Python code
@@ -282,7 +281,6 @@ This is a collection of static analysis tools and code quality checkers starting
 * [xenon](https://github.com/rubik/xenon) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
 
 ## Python wrappers
-* [ciocheck](https://github.com/ContinuumIO/ciocheck) - linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
 * [flake8](https://github.com/PyCQA/flake8) - a wrapper around `pyflakes`, `pycodestyle` and `mccabe`
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
@@ -421,6 +419,9 @@ ABAP, Ada, Awk, Configuration Management, Crystal, Dlang, Elixir, Elm, Erlang, F
 * [2017] [electrolysis](https://github.com/Kha/electrolysis) - A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover.
 * [2016] [herbie](https://github.com/mcarton/rust-herbie-lint) - Adds warnings or errors to your crate when using a numerically unstable floating point expression.
 * [2018] [Rust Language Server](https://github.com/rust-lang-nursery/rls) - Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
+* [2017] [ciocheck](https://github.com/ContinuumIO/ciocheck) - linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
+* [2013] [py-find-injection](https://github.com/uber/py-find-injection) - find SQL injection vulnerabilities in Python code
+
 
 ## License
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
