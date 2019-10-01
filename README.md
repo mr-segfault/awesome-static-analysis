@@ -226,19 +226,15 @@ This is a collection of static analysis tools and code quality checkers starting
 * [PHP Assumptions](https://github.com/rskuipers/php-assumptions) - Checks for weak assumptions
 * [PHP Coding Standards Fixer](http://cs.sensiolabs.org/) - Fixes your code according to standards like PSR-1, PSR-2, and the Symfony standard.
 * [Php Inspections (EA Extended)](https://github.com/kalessil/phpinspectionsea) - A Static Code Analyzer for PHP.
-* [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) - Refactoring helper
 * [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - Suggests a next version according to semantic versioning
 * [PHP-Parser](https://github.com/nikic/PHP-Parser) - A PHP parser written in PHP
-* [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) - Library emulating the PHP internal reflection
 * [php7cc](https://github.com/sstalle/php7cc) - PHP 7 Compatibility Checker
-* [php7mar](https://github.com/Alexia/php7mar) - assist developers in porting their code quickly to PHP 7
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - detects violations of a defined set of coding standards
 * [phpca](https://github.com/wapmorgan/PhpCodeAnalyzer) - Finds usage of non-built-in extensions
 * [phpcf](http://wapmorgan.github.io/PhpCodeFixer/) - Finds usage of deprecated PHP features
 * [phpcpd](https://github.com/sebastianbergmann/phpcpd) - Copy/Paste Detector for PHP code.
-* [phpdcd](https://github.com/sebastianbergmann/phpdcd) - Dead Code Detector (DCD) for PHP code.
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - builds a dependency graph for a project
-* [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations
+
 * [phpDocumentor](https://www.phpdoc.org/) - Analyzes PHP source code to generate documentation
 * [PHPMD](https://phpmd.org/) - finds possible bugs in your code
 * [PhpMetrics](http://www.phpmetrics.org/) - Calculates and visualizes various code quality metrics
@@ -251,8 +247,7 @@ This is a collection of static analysis tools and code quality checkers starting
 * [Progpilot](https://github.com/designsecurity/progpilot) - A static analysis tool for security purposes
 * [Psalm](https://getpsalm.org/) - Static analysis tool for finding type errors in PHP applications
 * [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - Visualizes metrics and source code
-* [Tuli](https://github.com/ircmaxell/Tuli) - A static analysis engine
-* [twig-lint](https://github.com/asm89/twig-lint) - twig-lint is a lint tool for your twig files.
+
 * [WAP](https://www.owasp.org/index.php/OWASP_WAP-Web_Application_Protection) - Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
 
 ## Python
@@ -421,7 +416,13 @@ ABAP, Ada, Awk, Configuration Management, Crystal, Dlang, Elixir, Elm, Erlang, F
 * [2018] [Rust Language Server](https://github.com/rust-lang-nursery/rls) - Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings.
 * [2017] [ciocheck](https://github.com/ContinuumIO/ciocheck) - linter, formatter and test suite helper. As a linter, it is a wrapper around `pep8`, `pydocstyle`, `flake8`, and `pylint`.
 * [2013] [py-find-injection](https://github.com/uber/py-find-injection) - find SQL injection vulnerabilities in Python code
-
+* [2015] [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) - Refactoring helper
+* [2014] [PHP-Token-Reflection](https://github.com/Andrewsville/PHP-Token-Reflection) - Library emulating the PHP internal reflection
+* [2017] [php7mar](https://github.com/Alexia/php7mar) - assist developers in porting their code quickly to PHP 7
+* [2015] [Tuli](https://github.com/ircmaxell/Tuli) - A static analysis engine
+* [2015] [phpdcd](https://github.com/sebastianbergmann/phpdcd) - Dead Code Detector (DCD) for PHP code.
+* [2017] [phpdoc-to-typehint](https://github.com/dunglas/phpdoc-to-typehint) - Add scalar type hints and return types to existing PHP projects using PHPDoc annotations
+* [2016] [twig-lint](https://github.com/asm89/twig-lint) - twig-lint is a lint tool for your twig files.
 
 ## License
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
