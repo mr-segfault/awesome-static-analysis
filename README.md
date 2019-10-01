@@ -59,6 +59,11 @@ This is a collection of static analysis tools and code quality checkers starting
 * [SVF](https://github.com/SVF-tools/SVF) - a static tool that enables scalable and precise interprocedural dependence analysis for C and C++ programs.
 
 ## C# #
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [.NET Analyzers](https://github.com/DotNetAnalyzers) - An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform.
 * [Code Analysis Rule Collection](https://carc.codeplex.com/) - Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform "Roslyn".
 * [code-cracker](https://github.com/code-cracker/code-cracker) - An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties.
@@ -73,6 +78,11 @@ This is a collection of static analysis tools and code quality checkers starting
 
 
 ## Go
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [dingo-hunter](https://github.com/nickng/dingo-hunter) - Static analyser for finding deadlocks in Go.
 * [dupl](https://github.com/mibk/dupl) - Reports potentially duplicated code.
 * [errcheck](https://github.com/kisielk/errcheck) - Check that error return values are used.
@@ -141,6 +151,11 @@ This is a collection of static analysis tools and code quality checkers starting
 * [ArchUnit](https://www.archunit.org/) - Unit test your Java architecture
 
 ## Ruby (Interpreted)
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [brakeman](https://github.com/presidentbeef/brakeman) - A static analysis security vulnerability scanner for Ruby on Rails applications
 * [cane](https://github.com/square/cane) - Code quality threshold checking as part of your build
 * [dawnscanner](https://github.com/thesp0nge/dawnscanner) - a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks.
@@ -156,6 +171,11 @@ This is a collection of static analysis tools and code quality checkers starting
 * [Sorbet](https://github.com/sorbet/sorbet) - A fast, powerful type checker designed for Ruby
 
 ## Rust
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [cargo-audit](https://github.com/RustSec/cargo-audit) - Audit Cargo.lock for crates with security vulnerabilities reported to the [RustSec Advisory Database](https://github.com/RustSec/advisory-db/).
 * [cargo-inspect](https://github.com/mre/cargo-inspect) - Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains.
 * [clippy](https://github.com/Manishearth/rust-clippy) - A code linter to catch common mistakes and improve your Rust code
@@ -163,12 +183,23 @@ This is a collection of static analysis tools and code quality checkers starting
 * [rustfix](https://github.com/killercup/rustfix) - read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy).
 
 # Markup Languages
+
 ## HTML
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [HTML Tidy](http://www.html-tidy.org/) - Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards.
 * [HTMLHint](https://github.com/yaniswang/HTMLHint) - A Static Code Analysis Tool for HTML
 * [Polymer-analyzer](https://github.com/Polymer/polymer-analyzer) - A static analysis framework for Web Components.
 
 ## CSS
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [CSS Stats](https://github.com/cssstats/cssstats) - Potentially interesting stats on stylesheets
 * [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
 * [CSSLint](https://github.com/CSSLint/csslint) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
@@ -180,6 +211,12 @@ This is a collection of static analysis tools and code quality checkers starting
 
 # Script Based Languages
 ## JavaScript
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
+
 [Metrics]
 * [complexity-report](https://github.com/jared-stilwell/complexity-report) - Software complexity analysis for JavaScript projects
 * [escomplex](https://github.com/jared-stilwell/escomplex) - Software complexity analysis of JavaScript-family abstract syntax trees.
@@ -206,6 +243,11 @@ This is a collection of static analysis tools and code quality checkers starting
 * [flow](https://flow.org/) - A static type checker for JavaScript.
 
 ## PHP
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [dephpend](https://github.com/mihaeu/dephpend) - Dependency analysis tool
 * [deptrac](https://github.com/sensiolabs-de/deptrac) - Enforce rules for dependencies between software layers.
 * [EasyCodingStandard](https://github.com/Symplify/EasyCodingStandard) - combine [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
@@ -239,6 +281,11 @@ This is a collection of static analysis tools and code quality checkers starting
 * [WAP](https://www.owasp.org/index.php/OWASP_WAP-Web_Application_Protection) - Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining.
 
 ## Python
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [bandit](https://github.com/PyCQA/bandit) - a tool to find common security issues in Python code
 * [bellybutton](https://github.com/hchasestevens/bellybutton) - a linting engine supporting custom project-specific rules
 * [Black](https://github.com/ambv/black) - The uncompromising Python code formatter
@@ -264,11 +311,21 @@ This is a collection of static analysis tools and code quality checkers starting
 * [xenon](https://github.com/rubik/xenon) - monitor code complexity using [`radon`](https://github.com/rubik/radon)
 
 ## Python wrappers
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [flake8](https://github.com/PyCQA/flake8) - a wrapper around `pyflakes`, `pycodestyle` and `mccabe`
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
 
 ## Shell
+[Metrics]
+[Linting]
+[Quality]
+[Correctness]
+[Test]
 * [i-Code CNES for Shell](https://github.com/lequal/i-CodeCNES) - An open source static code analysis tool for Shell and Fortran (77 and 90).
 * [shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts
 
@@ -373,7 +430,8 @@ This is a collection of static analysis tools and code quality checkers starting
 * [Codecheker](https://github.com/Ericsson/codechecker) - static analysis of C/C++ code, with web GUI
 * [QuantifiedCode](https://www.quantifiedcode.com/) - Automated code review & repair
 
-# Less Common Use Cases
+# Other Tools
+## Less Common Cases
 ABAP, Ada, Awk, Configuration Management, Crystal, Dlang, Elixir, Elm, Erlang, F#, Fortran, Gherkin, Groovy, Haskell, Haxe, Kotlin, LaTeX, Lua, Markdown, MATLAB, Perl, R, Scala, Solidity, Swift, Tcl, TypeScript, Translation
 * See: [Less Common Tools] (https://github.com/mr-segfault/awesome-static-analysis/blob/master/lessCommon.md)
 
