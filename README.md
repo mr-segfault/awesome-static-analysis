@@ -187,11 +187,9 @@ This is a collection of static analysis tools and code quality checkers starting
 * [CSScomb](https://github.com/csscomb/csscomb.js) - a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent
 * [CSSLint](https://github.com/CSSLint/csslint) - Does basic syntax checking and finds problematic patterns or signs of inefficiency
 * [GraphMyCSS.com](https://graphmycss.com) - CSS Specificity Graph Generator
-* [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
 * [Project Wallace CSS Analyzer](https://github.com/projectwallace/css-analyzer) - Analytics for CSS, part of [Project Wallace](https://www.projectwallace.com)
 * [sass-lint](https://github.com/sasstools/sass-lint) - A Node-only Sass linter for both sass and scss syntax.
 * [scsslint](https://github.com/brigade/scss-lint) - Linter for SCSS files
-* [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
 * [Stylelint](http://stylelint.io/) - Linter for SCSS/CSS files
 
 # Script Based Languages
@@ -427,6 +425,8 @@ ABAP, Ada, Awk, Configuration Management, Crystal, Dlang, Elixir, Elm, Erlang, F
 * [2016][plato](https://github.com/es-analysis/plato) - Visualize JavaScript source complexity
 * [NoLongerOnline][sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries
 * [2017] [TSqlRules](https://github.com/ashleyglee/TSqlRules) - TSQL Static Code Analysis Rules for SQL Server
+* [2016] [Parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool
+* [2016] [Specificity Graph](https://github.com/pocketjoso/specificity-graph) - CSS Specificity Graph Generator
 
 
 ## License
